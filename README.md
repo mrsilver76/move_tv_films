@@ -165,7 +165,7 @@ The recommended method to run this program is via a scheduled task. [This Micros
 
 ## Recommended setup
 
-There is no recommended setup. If you are interested, my HTPC runs a batch file twice a day (at midday and 5pm) which removes duplicate recordings (see [wmc-dedupe](http://www.fourteenminutes.com/code/wmc-dedupe)) and then the following:
+There is no recommended setup. If you are interested, my HTPC runs a batch file twice a day (at midday and 5pm) which removes duplicate recordings (see [wmc-dedupe](https://github.com/mrsilver76/wmc-dedupe)) and then the following:
 
     move_tv_films.exe /R "D:\TV Movies"
 
