@@ -1,21 +1,26 @@
 # move_tv_films
 
-Moves all Windows Media Center recordings that are films into a different directory. This is useful if you wish to stop your "Recorded TV" directory from containing a mixture of films and TV and also if you view and/or manage these films in a third party application (such as [Emby](https://emby.media/), [Kodi](https://kodi.tv/) or [Plex](https://www.plex.tv/)).
+*Moves all Windows Media Center recordings that are films into a different directory. This is useful if you wish to stop your "Recorded TV" directory from containing a mixture of films and TV and also if you view and/or manage these films in a third party application (such as [Emby](https://emby.media/), [Kodi](https://kodi.tv/) or [Plex](https://www.plex.tv/)).*
+
+> [!CAUTION]
+> **This program is no longer supported or actively developed. As a result, no further updates, bug fixes, or support (including responses to issues or pull requests) will be provided. <br/>
+> <br/>
+> The final release is [version v1.3](https://github.com/mrsilver76/move_tv_films/releases/tag/1.3). Developers interested in continuing the project are welcome to fork the repository.**
 
 ## Features
 
 This program has the following features:
 
-1.  Highly configurable command line based program for running as a one off or as a scheduled task.
-2.  Looks at WTV or DVR-MS files (with extensions `wtv`, `dvr-ms` or `dvrms`).
-3.  Can automatically find the "Public Recorded TV" path or let you use any other location.
-4.  Extracts the correct film name from the meta-data.
-5.  Extracts the correct year from the meta-data. Will try several places within the meta-data (including the description) if the year is missing from the standard "year" field.
-6.  Creates any missing directories and renames/moves the file using the standard XBMC/Plex/Media Browser naming format.
-7.  Can be configured not to create directories and/or not to rename recordings.
-8.  Test mode which doesn't move files or create directories.
-9.  Seven days worth of logs kept.
-10.  Verbose logging mode, useful to see what is going on.
+* 🖥️ Highly configurable command line based program for running as a one off or as a scheduled task.
+* 🎥 Looks at WTV or DVR-MS files (with extensions wtv, dvr-ms or dvrms).
+* 📂 Can automatically find the "Public Recorded TV" path or let you use any other location.
+* 🎬 Extracts the correct film name from the meta-data.
+* 📅 Extracts the correct year from the meta-data. Will try several places within the meta-data (including the description) if the year is missing from the standard "year" field.
+* 📁 Creates any missing directories and renames/moves the file using the standard XBMC/Plex/Media Browser naming format.
+* ⚙️ Can be configured not to create directories and/or not to rename recordings.
+* 🔧 Test mode which doesn't move files or create directories.
+* 📚 Seven days worth of logs kept.
+* 🔍 Verbose logging mode, useful to see what is going on.
 
 ## Limitations and known issues
 
